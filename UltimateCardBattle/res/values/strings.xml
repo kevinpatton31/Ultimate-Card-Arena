@@ -6,5 +6,9 @@
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
     <string name="title_activity_main_menu_1">Ultimate Card Battle</string>
+    <string name="Sstart">Start Game</string>
+    <string name="sInstrutions">Instrutions</string>
+    <string name="sExit">Exit</string>
+    <string name="title_activity_connection">UltimateCardBattle</string>
 
 </resources>

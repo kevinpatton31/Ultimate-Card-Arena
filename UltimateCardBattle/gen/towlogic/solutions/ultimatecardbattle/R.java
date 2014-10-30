@@ -24,13 +24,32 @@ public final class R {
     public static final class drawable {
         public static final int ic_launcher=0x7f020000;
     }
+    public static final class id {
+        public static final int LinearLayout1=0x7f070000;
+        public static final int LinearLayout2=0x7f070008;
+        public static final int btnExit=0x7f07000b;
+        public static final int btnFind=0x7f070005;
+        public static final int btnHost=0x7f070006;
+        public static final int btnInstructions=0x7f07000a;
+        public static final int btnStart=0x7f070009;
+        public static final int edittIp=0x7f070004;
+        public static final int edittNickName=0x7f070002;
+        public static final int serverStatus=0x7f070007;
+        public static final int textView2=0x7f070003;
+        public static final int tvNickName=0x7f070001;
+    }
     public static final class layout {
-        public static final int activity_main_menu_1=0x7f030000;
+        public static final int activity_connection=0x7f030000;
+        public static final int activity_main_menu_1=0x7f030001;
     }
     public static final class string {
+        public static final int Sstart=0x7f050005;
         public static final int action_settings=0x7f050003;
         public static final int app_name=0x7f050000;
         public static final int hello_world=0x7f050002;
+        public static final int sExit=0x7f050007;
+        public static final int sInstrutions=0x7f050006;
+        public static final int title_activity_connection=0x7f050008;
         public static final int title_activity_main=0x7f050001;
         public static final int title_activity_main_menu_1=0x7f050004;
     }
