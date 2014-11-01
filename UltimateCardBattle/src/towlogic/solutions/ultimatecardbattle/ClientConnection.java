@@ -14,6 +14,9 @@ public class ClientConnection implements Runnable{
 	
 	String serverIpAddress ="";
 
+	public ClientConnection(String server) {
+		this.serverIpAddress= server;
+	}
 	private Handler handler = new Handler();
 	@Override
 	public void run() {

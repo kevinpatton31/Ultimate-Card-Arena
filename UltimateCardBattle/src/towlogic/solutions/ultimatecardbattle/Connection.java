@@ -71,13 +71,11 @@ public class Connection extends Activity {
 
 			@Override
 			public void onClick(View v) {
-				ClientConnection c = new ClientConnection();
+				ClientConnection c = new ClientConnection(edittIp.getText().toString());
 				
+				c.run();	
+					
 				
-					c.serverIpAddress = edittIp.getText().toString();
-					if (!serverIpAddress.equals("")) {
-						c.run();	
-				}
 			}
 		});
 
